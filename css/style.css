@@ -1,0 +1,9 @@
+#nav-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  margin-top: 2%;
+  margin-right: 5%;
+  width: 100%;
+}
