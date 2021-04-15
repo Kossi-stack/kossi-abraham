@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <header id="header">
+    <div id="header">
       <img src="imgs/GitHub-Mark.png" alt="campany-logo" id="header-img" />
 
       <nav id="nav-bar">
@@ -17,10 +17,54 @@
         <a href="#how It Works" class="nav-link">How it works</a>
         <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
-    </header>
+    </div>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h2>
+          Handcrafted, home-made masterpieces
+        </h2>
+        <input id="email" type="email" placeholder="Enter your email address" />
+        <input type="submit" value="Get started" id="submit" />
+      </form>
 
-    <section id="features"></section>
 
+    <section id="features">
+<div class="feature">
+<img src="imgs\atom-solid.svg" alt="atom">
+<div>
+  <h3>
+    Premium Materials
+  </h3>
+  <p>
+    Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. 
+  </p>
+</div>
+</div>
+
+<div class="feature">
+  <img src="imgs\battery-full-solid.svg" alt="battery">
+  <div>
+    <h3>
+      Fast shipping
+    </h3>
+    <p>
+      We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. 
+    </p>
+  </div>
+  
+</div>
+
+<div class="feature">
+  <img src="imgs\truck-solid.svg" alt="sloid">
+  <div>
+    <h3>
+      Quality Assurance
+    </h3>
+    <p>
+      For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. 
+  </div>
+  
+</div>
+</section>
     <section id="how it works">
       <iframe
         width="560"
@@ -33,12 +77,66 @@
       ></iframe>
     </section>
 
-    <section id="pricing"></section>
+    <section id="pricing">
+      <div class="price">
+      <h4>
+        Tenor Trombone
+      </h4>
+      <span>
+        $600
+      
+      </span>
+      <p>
+        
+        Lorem ipsum. <br>
+        Lorem ipsum. <br>
+        Lorem ipsum dolor. <br>
+        Lorem ipsum.
+      
+      </p>
+      <a href="http://" class="select">select</a>
+      </div>
+      
+      <div class="price">
+        <h4>
+          Bass Trombone
+        </h4>
+        <span>
+          $900
+        
+        </span>
+        <p>
+          
+          Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor. <br>
+          Lorem ipsum.
+        
+        </p>
+        <a href="http://" class="select">select</a>
+        </div>
+      
+        <div class="price">
+          <h4>
+            Valve Trombone
+          </h4>
+          <span>
+            $1200
+          
+          </span>
+          <p>
+            
+            Lorem ipsum. <br>
+            Lorem ipsum. <br>
+            Lorem ipsum dolor. <br>
+            Lorem ipsum.
+          
+          </p>
+          <a href="http://" class="select">select</a>
+          </div>
+      </section>
 
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-      <input id="email" type="email" placeholder="Enter your email address" />
-      <input type="submit" value="Get started" id="submit" />
-    </form>
+    
 
     <script src="js/index.js"></script>
   </body>
